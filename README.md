@@ -1,2 +1,2 @@
 # DanZosh_Portfoliosh
-Homework 2, Part 2
+The Repository For Danny Maier's Portolio
