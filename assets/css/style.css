@@ -9,52 +9,67 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+.header1{
   display:flex;
   justify-content:space-between;
   align-items:center;
   height:55px;
   width:100%;
   background-color: var(--grey);
+  padding: 35px 0;
 }
-header h1{
+
+.header1 h1{
   /* learnatino */
   color: var(--grey);
   font-size: 40px;
   background-color: var(--teal);
   padding: 3px 3px 5px 50px;
   margin:3px 0;
-
 }
 
-header nav{
+.header1 nav{
   /* about me work contact me resume */
-
   width: auto;
   color: var(--teal);
   margin-right: 70px;
   margin-top:20px;
 }
 
-header li{
+.header1 li{
   /* this keeps the nav links inline */
   display:inline-block;
   padding: 2px 6px;
   border-bottom: 3px solid;
- 
+}
 
+.header2{
+  display:flex;
+  position:relative;
 }
 
 .hero {
-  height: 800px;
+  height: 175px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("link something");
+  background-image: url("../images/coolBackground.png");
   /* background-size:cover resizes the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
   background-size: cover;
   background-position: center;
 }
 
+.header2 h2{
+    /* Cool subtitle here */
+    color: var(--grey);
+    font-size: 28px;
+    background-color: var(--teal);
+    padding: 3px;
+    position:absolute;
+    bottom:1em;
+    right:82px;
+    
+  }
+}
 
 section{
   display:flex;
