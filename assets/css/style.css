@@ -85,9 +85,6 @@ body{
   /* background-color: var(--grey); */
   padding: 5px 0;
   margin-top: 20px;
-  
-  
-  
 }
 
 aside{
@@ -114,20 +111,28 @@ footer p{
   margin-top:20px;
   padding: 2px 6px;
   border-bottom: 3px solid var(--blue);
+  line-height: 2em;
 }
 
 .thegrid{
   display:flex;
-
+  flex-direction: column;
 }
 
+.thesmallgrid{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
 .article1{
   border:3px solid var(--teal);
   width:100%;
 
 }
 .article2{
-
+  border:3px solid var(--teal);
+  width:50%;
+  /* margin:3px; */
 }
 .littlebox{
   background-color: var(--teal);
@@ -144,11 +149,57 @@ footer p{
 
 
 
-.hero2 {
+.horiseon {
   height: 300px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../images/Horiseon.png");
+  /* background-size:cover resizes the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+  background-size: cover;
+  background-position: center;
+  overflow:hidden;
+  position:relative;
+}
+
+.dexter {
+  height: 150px;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("../images/701Dex.jpg");
+  /* background-size:cover resizes the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+  background-size: cover;
+  background-position: center;
+  overflow:hidden;
+  position:relative;
+}
+
+.npr {
+  height: 150px;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("../images/NPRHQ.jpg");
+  /* background-size:cover resizes the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+  background-size: cover;
+  background-position: center;
+  overflow:hidden;
+  position:relative;
+}
+.hayward {
+  height: 150px;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("../images/Hayward.jpg");
+  /* background-size:cover resizes the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+  background-size: cover;
+  background-position: center;
+  overflow:hidden;
+  position:relative;
+}
+.massAve{
+  height: 150px;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("../images/601Mass.jpg");
   /* background-size:cover resizes the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
   background-size: cover;
   background-position: center;
