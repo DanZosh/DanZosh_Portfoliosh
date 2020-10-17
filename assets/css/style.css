@@ -275,11 +275,23 @@ opacity: 1;
     width:100%
   }
   aside{
-    display:none;
+    /* display:none; */
+    text-align:left;
+    width:auto;
   }
   .header1{
     flex-direction:column;
     height:auto;
     /* justify-content: flex-start; */
     align-items: flex-start;
+  }
+  .header2>h2{
+    display:none;
+  }
+  
+  main{
+    margin-left:20px;
+  }
+  h1{
+    width:auto;
   }
