@@ -274,3 +274,12 @@ opacity: 1;
   .article2{
     width:100%
   }
+  aside{
+    display:none;
+  }
+  .header1{
+    flex-direction:column;
+    height:auto;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+  }
