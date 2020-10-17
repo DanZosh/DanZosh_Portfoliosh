@@ -91,10 +91,9 @@ body{
   display:flex;
   justify-content:stretch;
   width:100%;
-  /* background-color: var(--grey); */
   padding: 5px 0;
   margin-top: 10px;
-  flex-wrap:wrap;
+
 }
 
 aside{
@@ -257,12 +256,4 @@ footer ul{
 .opaque:hover{
 cursor: pointer;
 opacity: 1;
-}
-
-
-@media only screen and(max-width: 768px){
-  .container{
-    width:100%;
-  }
-
 }
