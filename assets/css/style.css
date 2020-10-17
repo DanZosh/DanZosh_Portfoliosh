@@ -94,6 +94,7 @@ body{
   /* background-color: var(--grey); */
   padding: 5px 0;
   margin-top: 10px;
+  flex-wrap:wrap;
 }
 
 aside{
@@ -259,7 +260,9 @@ opacity: 1;
 }
 
 
-.fakeLink:hover{
-
+@media only screen and(max-width: 768px){
+  .container{
+    width:100%;
+  }
 
 }
